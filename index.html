@@ -5,31 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GROUPE EDHEG</title>
 </head>
-<body>
-    <fieldset style="background-color: rgb(235, 12, 12);">
-    <center><h1 style="background-color: rgb(224, 15, 15); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">GROUPE EDHEG</h1></center>
-    <img src="image/téléchargement.jfif" alt="image EDHEG" height="250"><br>
+<body background="image/images.jpg">
+    <fieldset>
+    <center><h1 style="background-color: rgb(224, 15, 15); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">GROUPE EDHEG</h1></center>
+    <img src="image/téléchargement.jfif" alt="image EDHEG" height="300"><br>
     <p style="background-color: aqua;">
-        <div style="font-size: large;">&nbsp;&nbsp;Le Groupe EDHEG-Abidjan est spécialisé dans la formation: des Commerciaux, des Gestionnaires d'Entreprise, des Juristes d'Entreprise, des Comptables et Financiers et des Informaticiens. Il a pour vocation de former des Cadres gestionnaires et Dirigeants d'entreprise via une formation polyvalente et opérationnelle de haut niveau et une préparation aux métiers de décideurs à travers des séminaires, alternance école- entreprise, stages de fin d'étude.</div>
-        <div><a href="secondepage.html" target="_blank">Pour plus d'infos</a>
+        <div style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: xx-large;background-color:aqua">&nbsp;&nbsp;&nbsp;<strong>Le Groupe EDHEG-Abidjan est spécialisé dans la formation: des Commerciaux, des Gestionnaires d'Entreprise, des Juristes d'Entreprise, des Comptables et Financiers et des Informaticiens. Il a pour vocation de former des Cadres gestionnaires et Dirigeants d'entreprise via une formation polyvalente et opérationnelle de haut niveau et une préparation aux métiers de décideurs à travers des séminaires, alternance école- entreprise, stages de fin d'étude.</strong><br>
+        <kbd><a href="contact.html" target="_blank">Pour plus d'infos</a></kbd></div>
         </fieldset>
     </p>
-    <center><h2>FORMULAIRE D'INSCRIPTION</h2></center>
+    <center><h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;background-color: aqua;">FORMULAIRE D'INSCRIPTION</h2></center>
+        <fieldset>
     <form>
-        <label><strong>NOM ET PRENOMS</strong></label>
-        <input types="text" placeholder="KARIDIOULA MAMADOU"style="background-color: blue" required><br><br>
-        <label><strong>Email</strong></label>
-        <input type="email" placeholder="karidioula07@gmail.com"style="background-color: blue" required><br><br>
-        <label><strong>TELEPHONE</strong></label>
-        <input types="numbers" placeholder="XX XX XX XX XX" long="10"style="background-color: blue" required><br><br>
-        <label><strong>DATE DE NAISSANCE</strong></label>
-        <input type="date" placeholder="JJ/MM/AAAA"style="background-color: blue" required><br><br>
-        <label><strong>LIEU D'HABITATION</strong></label>
-        <input type="text" placeholder="COCODY ANONO" style="background-color: blue" required><br><br>
-        <label><strong>ÂGE</strong></label>
-        <input type="number" placeholder="XX" max="99" style="background-color: blue;"><br><br>
-        <label><strong>MOTIF D'INSCRIPTION</strong></label><br><br>
-        <textarea rows="05"></textarea><br><br>
-        <button type="submit" style="background-color: blue;">ENVOYER</button>
+        <div>
+            <label for="nom et prenoms" style="background-color:aqua"><strong>NOM ET PRENOMS</strong></label>
+            <input id="nom et prenoms" type="text"placeholder="KARIDIOULA MAMADOU" required><br><br>
+        <div>
+            <label for="email" style="background-color:aqua"><strong>EMAIL</strong></label>
+            <input id="email" type="email" placeholder="karidioula07@gmail.com" required><br><br>
+        </div>
+        <div>
+            <label for="téléphone" style="background-color:aqua"><strong>TELEPHONE</strong></label>
+            <input id="téléphone" type="tel" placeholder="XX XX XX XX XX" maxlength="10" required><br><br>
+        </div>
+        <div>
+            <label for="date de naissance" style="background-color:aqua"><strong>DATE DE NAISSANCE</strong></label>
+            <input id="date de naissance" type="date" placeholder="JJ/MM/AAAA" required><br><br>
+        </div>
+        <div>
+            <label style="background-color:aqua" ><strong>SEXE</strong></label><br>
+            <label for="masculin" style="background-color:aqua">MASCULIN</label>
+            <input id="masculin" type="radio" name="genre" value="M">
+            <label for="feminin" style="background-color:aqua">FEMININ</label>
+            <input id="feminin" type="radio" name="genre" value="F"><br><br>
+        </div>
+        <div>
+            <label for="lieu d'habitation" style="background-color:aqua;"><strong>LIEU D'HABITATION</strong></label>
+            <input id="lieu d'habitation" type="text" placeholder="COCODY ANONO" required><br><br>
+        </div>
+        <div>
+            <label for="âge" style="background-color:aqua"><strong>ÂGE</strong></label>
+            <input id="âge" type="number" placeholder="XX" max="99"><br><br>
+        </div>
+        <div>
+            <label for="motif d'inscription" style="background-color:aqua"><strong>MOTIF D'INSCRIPTION</strong></label><br>
+            <textarea id="motif d'inscription" rows="05"></textarea></div><br><br>
+        <div>
+            <button type="submit" style="background-color: aqua;">ENVOYER</button><br><br>
+        </div>
+        </fieldset>
 </form> 
 </html>
