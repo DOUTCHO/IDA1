@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GROUPE EDHEG-Abidjan</title>
 </head>
-<body background="image/images.jpg">
+<body style="background-color: beige;">
     <center><h1 style="background-color: rgb(2, 198, 247); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: xx-large;">SITE D'INSCRIPTION DU GROUPE EDHEG-Abidjan</h1></center>
     <fieldset>
       <p>
@@ -17,50 +17,86 @@
         </div>
     </fieldset>
       </p>
-    <center><h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;background-color: rgb(2, 198, 247);font-size: xx-large;">FORMULAIRE D'INSCRIPTION</h2></center><br>
+    <center><h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;background-color: rgb(2, 198, 247);font-size: xx-large;">FORMULAIRE D'INSCRIPTION</h2></center><br>  
+    <fieldset>
+    <legend><strong>FORMULAIRE A RENSEIGNER</strong></legend>
         <fieldset>
-    <form>
-        <div>
-            <label for="nom et prenoms" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>NOM ET PRENOMS:</strong></label>
-            <input id="nom et prenoms" type="text" placeholder="BATCHO DOSSOU GREGOIRE" required><br><br>
-        </div>
-        <div>
-            <label style="background-color: rgb(2, 198, 247);font-size: large;"><strong>SEXE:</strong></label>&nbsp;
-            <label for="masculin" style="background-color:white">MASCULIN</label>
-            <input id="masculin" type="radio" name="genre" value="M">
-            <label for="feminin" style="background-color:white">FEMININ</label>
-            <input id="feminin" type="radio" name="genre" value="F"><br><br>
-        </div>
-        <div>
-            <label for="date de naissance" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>DATE DE NAISSANCE:</strong></label>
-            <input id="date de naissance" type="date" placeholder="JJ/MM/AAAA" required><br><br>
-        </div>
-        <div>
-            <label for="lieu de naissance" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>LIEU DE NAISSANCE:</strong></label>
-            <input id="lieu de naissance" type="text" placeholder="COMMUNE DE DALOA" required><br><br>
-        </div>
-        <div>
-            <label for="âge" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>ÂGE:</strong></label>
-            <input id="âge" type="number" placeholder="XX" max="99" maxlength="02"><br><br>
-        </div>
-        <div>
-            <label for="lieu d'habitation" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>LIEU D'HABITATION:</strong></label>
-            <input id="lieu d'habitation" type="text" placeholder="COCODY ATTOBAN" required><br><br>
-        </div>
-        <div>
-            <label for="téléphone" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>TELEPHONE:</strong></label>
-            <input id="téléphone" type="tel" placeholder="XX XX XX XX XX" maxlength="10" required><br><br>
-        </div>
-        <div>
-            <label for="email" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>EMAIL:</strong></label>
-            <input id="email" type="email" placeholder="batchogregoire0@gmail.com" required><br><br>
-        </div>
-        <div>
-            <label for="motif d'inscription" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>MOTIF D'INSCRIPTION:</strong></label><br>
-            <textarea id="motif d'inscription" rows="05"></textarea></div><br><br>
+        <legend><em>INFORMATIONS PERSONNELLES</em></legend>
+        <form>
+            <div>
+                <label for="nom et prenoms" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>NOM ET PRENOMS:</strong></label>
+                <input id="nom et prenoms" type="text" placeholder="BATCHO GREGOIRE" required><br><br>
+            </div>
+            <div>
+                <label style="background-color: rgb(2, 198, 247);font-size: large;"><strong>SEXE:</strong></label>&nbsp;
+                <label for="masculin" style="background-color:white">MASCULIN</label>
+                <input id="masculin" type="radio" name="genre" value="M">
+                <label for="feminin" style="background-color:white">FEMININ</label>
+                <input id="feminin" type="radio" name="genre" value="F"><br><br>
+            </div>
+            <div>
+                <label for="date de naissance" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>DATE DE NAISSANCE:</strong></label>
+                <input id="date de naissance" type="date" placeholder="JJ/MM/AAAA" required><br><br>
+            </div>
+            <div>
+                <label for="lieu de naissance" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>LIEU DE NAISSANCE:</strong></label>
+                <input id="lieu de naissance" type="text" placeholder="COMMUNE DE DALOA" required><br><br>
+            </div>
+            <div>
+                <label for="âge" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>ÂGE:</strong></label>
+                <input id="âge" type="number" placeholder="XX" max="99" maxlength="02"><br><br>
+            </div>
+            <div>
+                <label for="lieu d'habitation" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>LIEU D'HABITATION:</strong></label>
+                <input id="lieu d'habitation" type="text" placeholder="COCODY ATTOBAN" required><br><br>
+            </div>
+            <div>
+                <label for="téléphone" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>TELEPHONE:</strong></label>
+                <input id="téléphone" type="tel" placeholder="XX XX XX XX XX" maxlength="10" required><br><br>
+            </div>
+            <div>
+                <label for="email" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>EMAIL:</strong></label>
+                <input id="email" type="email" placeholder="batchogregoire0@gmail.com" required><br><br>
+            </div>
+            <div>
+                <label for="motif d'inscription" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>MOTIF D'INSCRIPTION:</strong></label><br>
+                <textarea id="motif d'inscription" cols="30" rows="05"></textarea></div><br><br>
+        </fieldset><br>
+        <fieldset>
+            <div>
+                <label for="école" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>ETABLISSEMENT PRECEDENT:</strong></label>
+                <input id="école" type="text" placeholder="LYCEE MODERNE" required>
+            </div><br>
+            <div>
+                <label for="serie" style="background-color: rgb(2, 198, 247);font-size: large;"><strong> SERIE: </strong></label>
+                <input id="serie" type="text" placeholder="D" required>
+            </div><br>
+            <div>
+                <label for="cycle" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>CYCLE SOUHAITE</strong></label>
+                <select name="cycle" id="cycle">
+                    <option value="bts">BTS</option>
+                    <option value="licence">LICENCE</option>
+                    <option value="master">MASTER</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="filière" style="background-color: rgb(2, 198, 247);font-size: large;"><strong>FILIERE SOUHAITE</strong></label>
+                <select name="" id="filière">
+                  <optgroup label="Filière commerciale">
+                    <option value="gest_com">GESTION COMMERCIALE</option>
+                    <option value="fin_compta">FINANCE COMPTABILITE ET GESTION DES ENTREPRISES</option>
+                    <option value="log">LOGISTIQUE</option>
+                    <option value="rh-com">RESSOURCES HUMAINES ET COMMUNICATION</option>
+                  </optgroup>
+                  <optgroup label="Filière Informatique">
+                    <option value="ida">INFORMATIQUE, DEVELOPPEUR D'APPLICATION</option>
+                  </optgroup>
+                </select>
+            </div>
+        </fieldset><br>
         <div>
             <button type="submit" style="background-color: rgb(2, 198, 247)"><strong>ENVOYER</strong></button><br><br>
         </div>
-        </fieldset>
-</form> 
+    </form> 
+</fieldset>
 </html>
